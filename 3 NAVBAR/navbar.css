@@ -1,0 +1,45 @@
+.nav-enlace {
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: rosybrown;
+}
+
+nav {
+    background: rebeccapurple;
+    padding: 10px;
+}
+
+.div-padre {
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-botton{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+
+@media (max-width:600px) {
+    nav {
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-botton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
